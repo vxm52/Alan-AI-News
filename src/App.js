@@ -8,26 +8,30 @@ const alanKey = '';
 
 const App = () => {
     const [newsArticles, setNewsArticles] = useState([]);
-    const classes = useStyles(); 
-    
+    const [activeArticle, setActiveArticle] = useState(-1);
+    const classes = useStyles();
+
     useEffect(() => {
         alanBtn({
-            key: alanKey,  
+            key: alanKey,
             onCommand: ({ command, articles }) => {
                 if(command === 'newHeadlines') {
                     setNewsArticles(articles);
+                    setActiveArticle(-1);
+                } else if(command === 'highlight') {
+                  setActiveArticle((prevActiveArticle) => prevActiveArticle + 1);
                 }
             }
         })
     }, [])
-    
+
     return (
         <div>
             <div className={classes.logoContainer}>
                 <img src="https://cdn.dribbble.com/users/32512/screenshots/4787574/light_ai_design_by_gleb.gif" className={classes.alanLogo} alt="alan logo"></img>
 
             </div>
-            <NewsCards articles={newsArticles} />
+            <NewsCards articles={newsArticles} activeArticle={activeArticle}/>
         </div>
     )
 }
