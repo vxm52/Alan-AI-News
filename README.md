@@ -1,5 +1,3 @@
-![Orb effect](https://cdn.dribbble.com/users/32512/screenshots/4787574/light_ai_design_by_gleb.gif)
-
 # Alan AI News Assistant
 
 A conversational voice controlled news application made using React and [Alan AI](https://alan.app/) (a speech recognition software that allows you to add voice capabilities to your applications. 
