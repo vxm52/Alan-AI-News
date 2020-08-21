@@ -1,3 +1,9 @@
+![Orb effect](https://cdn.dribbble.com/users/32512/screenshots/4787574/light_ai_design_by_gleb.gif)
+
+# Alan AI News Assistant
+
+A conversational voice controlled news application made using React and [Alan AI](https://alan.app/) (a speech recognition software that allows you to add voice capabilities to your applications. 
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +72,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+###### Credits to JavaScript Mastery for project tutorial 
