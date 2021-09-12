@@ -3,7 +3,7 @@
 A conversational voice controlled news application made using React and [Alan AI](https://alan.app/) (a speech recognition software that allows you to add voice capabilities to your applications. 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
+<br></br>
 ## To run the program:
 
 ### Get your Alan AI key
